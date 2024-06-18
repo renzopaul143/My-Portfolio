@@ -1,0 +1,162 @@
+/* Navbar */
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #4c6ca0;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.navbar li a {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+}
+
+.navbar li a:hover {
+  background-color: #446190;
+  color: #f4f4f4;
+}
+
+.card {
+  border: 1px solid #ccc;
+  background: skyblue;
+  padding: 50px;
+  margin-bottom: 10px;
+}
+
+.enhance {
+  color: yellow;
+  background: black;
+}
+
+/* Flex items */
+.flex-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.flex-items > div {
+  padding: 20px;
+  border-radius: 50%;
+}
+
+img {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 23%;
+  margin-top: 20px;
+}
+.class {
+  text-align: center;
+}
+
+.aboutme {
+  margin-left: 100px;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding-right: 20px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.box {
+  width: 32%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.education {
+  margin-left: 100px;
+}
+
+/* button */
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  /* font-size: 40px; */
+}
+
+a:active {
+  color: red;
+}
+
+.btn {
+  background: #4c6ca0;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  padding: 30px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #f4f4f4;
+  background: #446190;
+}
+
+.item {
+  padding: 1rem;
+  background: #f4f4f4;
+  border: #ccc 1px solid;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  /* Set implicit rows */
+  grid-auto-rows: 2fr;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.skills h1 {
+  text-align: center;
+}
+.hobbies h1 {
+  text-align: center;
+}
+
+.employement h1 {
+  text-align: center;
+}
+.employement h3 {
+  text-align: center;
+}
